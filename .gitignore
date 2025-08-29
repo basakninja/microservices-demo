@@ -1,28 +1,19 @@
-.DS_Store
-.eclipse.buildship.core.prefs
-.gradle/
-.idea/
-.kubernetes-manifests-*/
-.project
-.skaffold-*.yaml
-.terraform.lock.hcl
-.terraform/*
-.venv/
-.vs/
-.vscode/
-*.iml
-*.ipr
-*.iws
-*.pyc
-*.swp
-*.tfstate*
-*.tfvars
-*~
-bin/
-build/
-Dockerfile.pip
+# Node
 node_modules/
-obj/
-pkg/
-release/wi-kubernetes-manifests.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Go
+bin/
 vendor/
+
+# .NET
+obj/
+bin/
+
+# General
+.DS_Store
+*.swp
